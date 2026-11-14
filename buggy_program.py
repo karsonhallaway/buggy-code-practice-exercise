@@ -1,5 +1,4 @@
 # buggy_program.py — Contains 4 bugs. Find and fix them all.
-scores = [85, 92, 78, 95, 88, 70, 93]
 
 def calculate_stats(numbers):
     total = sum(numbers)
@@ -18,6 +17,7 @@ def calculate_stats(numbers):
         "above_count": len(above_average)
     }
 
+scores = [85, 92, 78, 95, 88, 70, 93]
 result = calculate_stats(scores)
 
 print(f"Total: {result['total']}")
